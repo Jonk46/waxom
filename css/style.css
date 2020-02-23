@@ -60,22 +60,30 @@ img {
 
 /* ISOTOP start */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-  grid-auto-rows: minmax(275px, auto);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px 0;
+/* .grid { */
+  /* display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px; */
+  /* display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px; */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px; */
+/* } */
+
+.grid {
+  background-color: rgba(88, 210, 49, 0.49);
 }
+
 .grid-item {
+  width: 25%;
+  min-height: 300px;
+  margin: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* img for Web Design */
 .design-1 {
   background-image: url(../img/web-design/img_web-design-1.jpg);
 }
@@ -92,7 +100,8 @@ img {
   background-image: url(../img/web-design/img_web-design-5.jpg);
 }
 
-/* img for Mobile */
+/* mobile img */
+
 .mobile-1 {
   background-image: url(../img/mobile/img_mobile-1.jpg);
 }
@@ -109,19 +118,58 @@ img {
   background-image: url(../img/mobile/img_mobile-5.jpg);
 }
 
+/* illustration */
+
+.illustr-1 {
+  background-image: url(../img/illustration/img_illustration-1.jpg);
+}
+.illustr-2 {
+  background-image: url(../img/illustration/img_illustration-2.jpg);
+}
+.illustr-3 {
+  background-image: url(../img/illustration/img_illustration-3.jpg);
+}
+.illustr-4 {
+  background-image: url(../img/illustration/img_illustration-4.jpg);
+}
+
+/* photo */
+.photo-1 {
+  background-image: url(../img/photography/img_portfolio-1.jpg);
+}
+.photo-2 {
+  background-image: url(../img/photography/img_portfolio-2.jpg);
+}
+.photo-3 {
+  background-image: url(../img/photography/img_portfolio-3.jpg);
+}
+.photo-4 {
+  background-image: url(../img/photography/img_portfolio-4.jpg);
+}
 
 
+/* img for Web Design 
+.grid-item__web-design {
+
+}*/
+
+/* 
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
 
 /* .our_tours__wrap {
   padding-top: 30px;
 } */
 
-/* .our_tours__card .our_tours__img_wrap {
+.our_tours__card .our_tours__img_wrap {
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
   position: relative;
-} */
+}
 
 /* .our_tours__card .our_tours__img_wrap img {
   max-height: 100%;

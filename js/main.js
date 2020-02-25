@@ -19,7 +19,6 @@ var swiper = new Swiper('.swiper-container', {
 /////////isotop
 var $grid = $('.grid').isotope({
 	itemSelector: '.grid-item',
-	stagger: 30
 });
 
 $('.filter-button-group').on( 'click', '.button', function() {
